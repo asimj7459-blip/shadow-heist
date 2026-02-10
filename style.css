@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+canvas {
+  display: none;
+  margin: auto;
+  background: #111;
+}
